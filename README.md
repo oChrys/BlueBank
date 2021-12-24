@@ -105,7 +105,7 @@ Projeto de apresentação final do PAN Academy, um programa de treinamento do Ba
 1. Em "autenticacao-controle", clicar no endpoint **/auth**;
 2. Na tela que abrir, clicar em "**Try it out**";
 
-![Tela de autenticação](autenticação.jpg)
+![Tela de autenticação](visualcontentforgithub/autenticação.jpg)
 
 3. Substituir os campos "string" pelo e-mail e senha do usuário;
 
@@ -115,23 +115,23 @@ Projeto de apresentação final do PAN Academy, um programa de treinamento do Ba
 
 4. Clicar em "Execute";
 
-![Tela de login](loginsenha.jpg)
+![Tela de login](visualcontentforgithub/loginsenha.jpg)
 
 5. Após clicar em "Execute" será gerado um token dentro de "Response Body". Copiar esse código:
 
-![Token](token.jpg)
+![Token](visualcontentforgithub/token.jpg)
 
 6. Com o token copiado, clicar no botão "Authorize" na parte superior da página: 
 
-![Authorize](authorize.jpg)
+![Authorize](visualcontentforgithub/authorize.jpg)
 
 7. Na tela que abrir, escrever **Bearer**, espaço e colar o token previamente copiado:
 
-![Usuário logado](logado.jpg)
+![Usuário logado](visualcontentforgithub/logado.jpg)
 
 8. A próxima tela já deverá mostrar que nosso usuário está logado no sistema. Basta clicar em "close" e proceder aos testes nos endpoints desejados.  Caso não ocorra a autorização, houve preenchimento errado de algum campo ou o token está expirado.  Refazer os passos de 1 à 7.
 
-![Usuário Autorizado e Logado](autorizadoelogado.jpg)
+![Usuário Autorizado e Logado](visualcontentforgithub/autorizadoelogado.jpg)
 
 <h3>Extras:</h3>
 
